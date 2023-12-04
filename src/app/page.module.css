@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Grandstander:wght@200;300;400&display=swap');
+
+.botContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: Bungee Spice;
+  font-size: 48px;
+}
+
+.activityResponse {
+  font-family: Grandstander;
+  font-size: 30px;
+  text-wrap: wrap;
+  width: 500px;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: red;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(1);
+}
