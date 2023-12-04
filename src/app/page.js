@@ -58,7 +58,7 @@ export default function Home () {
       <h4 className={styles.activityResponse}>{activity}</h4>
 
       {/* Add the onClick handler to the button and add fetchActivity to fetch a new activity each time you click the button */}
-      <button className={styles.button} onClick={fetchActivity}></button>
+      <button className={styles.button} onClick={fetchActivity}>Push</button>
     </div>
   )
 }

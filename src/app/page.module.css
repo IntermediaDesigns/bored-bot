@@ -18,6 +18,7 @@
   text-wrap: wrap;
   width: 500px;
   text-align: center;
+  font-weight: 600;
 }
 
 .button {
@@ -25,9 +26,28 @@
   height: 100px;
   border-radius: 50%;
   border: none;
-  background-color: red;
   transform: scale(0.9);
   cursor: pointer;
+  color:aliceblue;
+  font-family: Grandstander;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+  background-image: linear-gradient(
+  35deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(283deg 100% 21%) 9%,
+  hsl(308deg 100% 24%) 18%,
+  hsl(322deg 100% 31%) 27%,
+  hsl(331deg 100% 38%) 36%,
+  hsl(338deg 100% 43%) 45%,
+  hsl(355deg 89% 58%) 55%,
+  hsl(12deg 100% 60%) 64%,
+  hsl(26deg 100% 56%) 73%,
+  hsl(39deg 100% 50%) 82%,
+  hsl(47deg 100% 50%) 91%,
+  hsl(55deg 100% 50%) 100%
+);
 }
 
 .button:active {
